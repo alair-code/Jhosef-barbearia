@@ -1,3 +1,10 @@
+import bannerCombo from '../assets/images/banner_combo_barboterapia_1790467392260.jpg';
+import bannerCorteBarba from '../assets/images/banner_corte_barba_1790467417281.jpg';
+import bannerCorteSobrancelha from '../assets/images/banner_corte_sombrancelha_1790467406909.jpg';
+import bannerPesinho from '../assets/images/banner_pesinho_navalha_1790467426720.jpg';
+import tabelaPrecos from '../assets/images/tabela_precos_jhosef_1790467437054.jpg';
+import logoJhosef from '../assets/images/jhosef_barbearia_logo_1790466156362.jpg';
+
 export interface ServiceItem {
   id: string;
   name: string;
@@ -35,7 +42,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 25,
       duration: "50 min",
       description: "O combo mais procurado: corte completo alinhado, barba desenhada e tratamento revitalizante com toalha quente a vapor.",
-      image: "/src/assets/images/banner_combo_barboterapia_1790467392260.jpg",
+      image: bannerCombo,
       badge: "Mais Pedido",
       highlight: true
     },
@@ -46,7 +53,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 15,
       duration: "40 min",
       description: "Corte na tesoura e máquina com alinhamento milimétrico, acompanhado de desenho e acabamento de barba.",
-      image: "/src/assets/images/banner_corte_barba_1790467417281.jpg"
+      image: bannerCorteBarba
     },
     {
       id: "corte-sombrancelha",
@@ -55,7 +62,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 15,
       duration: "35 min",
       description: "Corte masculino adulto ou infantil trabalhado com degradê e listras na régua + alinhamento fino de sobrancelha.",
-      image: "/src/assets/images/banner_corte_sombrancelha_1790467406909.jpg"
+      image: bannerCorteSobrancelha
     },
     {
       id: "pezinho-navalha",
@@ -64,7 +71,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 5,
       duration: "15 min",
       description: "Acabamento no navalhete do contorno do pescoço e costeletas, deixando o visual sempre limpo e impecável.",
-      image: "/src/assets/images/banner_pesinho_navalha_1790467426720.jpg"
+      image: bannerPesinho
     },
     {
       id: "sobrancelha",
@@ -73,7 +80,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 5,
       duration: "15 min",
       description: "Alinhamento e limpeza simétrica da sobrancelha na lâmina descartável para harmonização do olhar.",
-      image: "/src/assets/images/banner_corte_sombrancelha_1790467406909.jpg"
+      image: bannerCorteSobrancelha
     },
     {
       id: "barba-simples",
@@ -82,7 +89,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 5,
       duration: "20 min",
       description: "Aparo de volume, desenho das linhas faciais e finalização pós-barba.",
-      image: "/src/assets/images/banner_corte_barba_1790467417281.jpg"
+      image: bannerCorteBarba
     }
   ] as ServiceItem[],
 
@@ -110,12 +117,12 @@ export const BARBERSHOP_DATA = {
   ] as StatItem[],
 
   // Primary assets from the uploaded banners
-  heroImage: "/src/assets/images/banner_combo_barboterapia_1790467392260.jpg",
-  bannerCombo: "/src/assets/images/banner_combo_barboterapia_1790467392260.jpg",
-  bannerCorteBarba: "/src/assets/images/banner_corte_barba_1790467417281.jpg",
-  bannerCorteSobrancelha: "/src/assets/images/banner_corte_sombrancelha_1790467406909.jpg",
-  bannerPesinho: "/src/assets/images/banner_pesinho_navalha_1790467426720.jpg",
-  priceTableImage: "/src/assets/images/tabela_precos_jhosef_1790467437054.jpg",
-  craftImage: "/src/assets/images/banner_corte_barba_1790467417281.jpg",
-  logoImage: "/src/assets/images/jhosef_barbearia_logo_1790466156362.jpg"
+  heroImage: bannerCombo,
+  bannerCombo: bannerCombo,
+  bannerCorteBarba: bannerCorteBarba,
+  bannerCorteSobrancelha: bannerCorteSobrancelha,
+  bannerPesinho: bannerPesinho,
+  priceTableImage: tabelaPrecos,
+  craftImage: bannerCorteBarba,
+  logoImage: logoJhosef
 };
