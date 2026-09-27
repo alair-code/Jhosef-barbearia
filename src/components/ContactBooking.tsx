@@ -19,7 +19,7 @@ interface ContactBookingProps {
 
 export const ContactBooking: React.FC<ContactBookingProps> = ({ selectedServicePreset }) => {
   const [selectedService, setSelectedService] = useState<string>(
-    selectedServicePreset ? selectedServicePreset.id : 'corte-masculino'
+    selectedServicePreset ? selectedServicePreset.id : 'combo-master'
   );
   const [clientName, setClientName] = useState('');
   const [clientPhone, setClientPhone] = useState('');
@@ -106,7 +106,7 @@ export const ContactBooking: React.FC<ContactBookingProps> = ({ selectedServiceP
             Entrar em Contato
           </h2>
           <p className="mt-4 text-base text-ice-muted font-light leading-relaxed">
-            Reserve o seu horário ou converse diretamente com nossa equipe. Atendimento personalizado e exclusivo.
+            Solicite seu horário ou fale diretamente com a Jhosef Barbearia pelo WhatsApp.
           </p>
         </div>
 
@@ -218,7 +218,7 @@ export const ContactBooking: React.FC<ContactBookingProps> = ({ selectedServiceP
                       Agendamento Online
                     </h3>
                     <p className="text-xs text-ice-muted font-light mt-0.5">
-                      Preencha os dados e receba a confirmação imediata via WhatsApp.
+                      Preencha os dados e envie sua solicitação pelo WhatsApp.
                     </p>
                   </div>
                 </div>
@@ -358,7 +358,7 @@ export const ContactBooking: React.FC<ContactBookingProps> = ({ selectedServiceP
                   {/* 4. Observações */}
                   <div>
                     <label className="block text-xs uppercase tracking-wider font-semibold text-ice mb-2">
-                      Observação ou Barbeiro de Preferência (Opcional)
+                      Observações (Opcional)
                     </label>
                     <textarea
                       rows={2}
@@ -375,7 +375,7 @@ export const ContactBooking: React.FC<ContactBookingProps> = ({ selectedServiceP
                     className="w-full inline-flex items-center justify-center gap-3 py-4 text-xs sm:text-sm uppercase tracking-widest font-semibold bg-ice text-dark-primary hover:bg-white transition-all duration-200 active:scale-[0.99] shadow-xl group"
                   >
                     <Send className="w-4 h-4 text-dark-primary transition-transform group-hover:translate-x-1" />
-                    <span>Confirmar e Enviar via WhatsApp</span>
+                    <span>Enviar Solicitação via WhatsApp</span>
                   </button>
                   <p className="text-[11px] text-ice-subtle text-center">
                     Sem taxas antecipadas. O pagamento é realizado diretamente na barbearia.

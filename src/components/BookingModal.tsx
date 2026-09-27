@@ -13,7 +13,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
   onClose,
   presetService
 }) => {
-  const [selectedService, setSelectedService] = useState<string>('corte-masculino');
+  const [selectedService, setSelectedService] = useState<string>('combo-master');
   const [clientName, setClientName] = useState('');
   const [clientPhone, setClientPhone] = useState('');
   const [preferredDate, setPreferredDate] = useState('');

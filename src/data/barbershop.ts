@@ -29,9 +29,9 @@ export const BARBERSHOP_DATA = {
   subheadline: "Cortes modernos, barboterapia relaxante com toalha quente e acabamento de precisão no centro de Reduto - MG.",
   phone: "(31) 9 9935-1715",
   whatsappNumber: "5531999351715",
-  address: "Rua João Batista, N° 10 - Centro, Reduto - MG, 36920-000",
+  address: "R. São João Batista, N° 10 - Centro, Reduto - MG, 36920-000",
   businessHours: "Segunda a Sábado | 09h às 19h",
-  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Rua+Jo%C3%A3o+Batista%2C+N%C2%B0+10+-+Centro%2C+Reduto+-+MG",
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=R.+S%C3%A3o+Jo%C3%A3o+Batista%2C+N%C2%B0+10+-+Centro%2C+Reduto+-+MG",
   
   // Real service list matching the official Jhosef Barbearia price board & banners
   services: [
