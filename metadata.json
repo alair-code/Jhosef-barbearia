@@ -1,0 +1,6 @@
+{
+  "name": "Jhosef Barbearia",
+  "description": "Barbearia premium em Reduto - MG. Estilo, tradição, cortes masculinos impecáveis, barba e cuidados capilares de alto padrão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

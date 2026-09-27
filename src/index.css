@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Primary Color: Preto Elegante (#0F172A) = hsl(222 47% 11%) */
+    --bg-primary: hsl(222 47% 11%);
+    --bg-surface: hsl(222 45% 14%);
+    --bg-surface-elevated: hsl(222 43% 18%);
+    
+    /* Secondary Color: Branco Gelo (#F8FAFC) = hsl(210 40% 98%) */
+    --color-ice: hsl(210 40% 98%);
+    --color-ice-muted: hsl(215 25% 78%);
+    --color-ice-subtle: hsl(215 20% 55%);
+    
+    /* Hairline & structural borders */
+    --border-subtle: hsl(222 30% 22% / 0.85);
+    --border-ice-light: hsl(210 40% 98% / 0.2);
+    --border-ice-active: hsl(210 40% 98% / 0.8);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--color-ice);
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Custom Semantic Utility Classes adhering strictly to the required HSL palette */
+.bg-dark-primary {
+  background-color: var(--bg-primary);
+}
+
+.bg-dark-surface {
+  background-color: var(--bg-surface);
+}
+
+.bg-dark-elevated {
+  background-color: var(--bg-surface-elevated);
+}
+
+.text-ice {
+  color: var(--color-ice);
+}
+
+.text-ice-muted {
+  color: var(--color-ice-muted);
+}
+
+.text-ice-subtle {
+  color: var(--color-ice-subtle);
+}
+
+.border-subtle {
+  border-color: var(--border-subtle);
+}
+
+.border-ice-light {
+  border-color: var(--border-ice-light);
+}
+
+.border-ice-active {
+  border-color: var(--border-ice-active);
+}
+
+.bg-ice {
+  background-color: var(--color-ice);
+}
+
+.text-dark-primary {
+  color: var(--bg-primary);
+}
+
+/* Smooth custom scrollbar in dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(222 47% 11%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(222 30% 25%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(210 40% 70%);
+}
