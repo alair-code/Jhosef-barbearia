@@ -42,7 +42,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 25,
       duration: "50 min",
       description: "O combo mais procurado: corte completo alinhado, barba desenhada e tratamento revitalizante com toalha quente a vapor.",
-      image: "${bannerCombo}",
+      image: bannerCombo,
       badge: "Mais Pedido",
       highlight: true
     },
@@ -53,7 +53,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 15,
       duration: "40 min",
       description: "Corte na tesoura e máquina com alinhamento milimétrico, acompanhado de desenho e acabamento de barba.",
-      image: "${bannerCorteBarba}"
+      image: bannerCorteBarba
     },
     {
       id: "corte-sombrancelha",
@@ -62,7 +62,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 15,
       duration: "35 min",
       description: "Corte masculino adulto ou infantil trabalhado com degradê e listras na régua + alinhamento fino de sobrancelha.",
-      image: "${bannerCorteSobrancelha}"
+      image: bannerCorteSobrancelha
     },
     {
       id: "pezinho-navalha",
@@ -71,7 +71,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 5,
       duration: "15 min",
       description: "Acabamento no navalhete do contorno do pescoço e costeletas, deixando o visual sempre limpo e impecável.",
-      image: "${bannerPesinho}"
+      image: bannerPesinho
     },
     {
       id: "sobrancelha",
@@ -80,7 +80,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 5,
       duration: "15 min",
       description: "Alinhamento e limpeza simétrica da sobrancelha na lâmina descartável para harmonização do olhar.",
-      image: "${bannerCorteSobrancelha}"
+      image: bannerCorteSobrancelha
     },
     {
       id: "barba-simples",
@@ -89,7 +89,7 @@ export const BARBERSHOP_DATA = {
       numericPrice: 5,
       duration: "20 min",
       description: "Aparo de volume, desenho das linhas faciais e finalização pós-barba.",
-      image: "${bannerCorteBarba}"
+      image: bannerCorteBarba
     }
   ] as ServiceItem[],
 
@@ -117,12 +117,12 @@ export const BARBERSHOP_DATA = {
   ] as StatItem[],
 
   // Primary assets from the uploaded banners
-  heroImage: "${bannerCombo}",
-  bannerCombo: "${bannerCombo}",
-  bannerCorteBarba: "${bannerCorteBarba}",
-  bannerCorteSobrancelha: "${bannerCorteSobrancelha}",
-  bannerPesinho: "${bannerPesinho}",
-  priceTableImage: "${tabelaPrecos}",
-  craftImage: "${bannerCorteBarba}",
-  logoImage: "${logoJhosef}"
+  heroImage: bannerCombo,
+  bannerCombo: bannerCombo,
+  bannerCorteBarba: bannerCorteBarba,
+  bannerCorteSobrancelha: bannerCorteSobrancelha,
+  bannerPesinho: bannerPesinho,
+  priceTableImage: tabelaPrecos,
+  craftImage: bannerCorteBarba,
+  logoImage: logoJhosef
 };
